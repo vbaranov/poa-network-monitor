@@ -80,7 +80,7 @@ node ./scripts/newAccount.js core http://localhost:8541 password
 ```
 
 <h6>For sending txs test (missing-rounds.js)</h6>
-1. Create 2 accounts (in each network), add POA to the one of them. For the Sokol network test POA can be added <a href="https://faucet-sokol.herokuapp.com/">here</a> <br>
+1. Create 2 accounts (in each network), add POA to the one of them. For the Sokol network test POA can be added <a href="https://faucet.poa.network/">here</a> <br>
 2. Add created addresses and passwords to the <code>Sending txs test</code> section of the <code>config.toml</code> file. <code>addressFrom..</code> must be address with POA
 
 <h6>For sending txs via public RPC test (txs-public-rpc-test.js) and Infura (txs-infura-test.js)</h6>
